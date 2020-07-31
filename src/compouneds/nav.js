@@ -21,7 +21,7 @@ function Nav() {
             <a href="contact">Contact</a>
           </li>
           <li>
-            <a href="resume.pdf">Resume</a>
+            <a href={`${process.env.PUBLIC_URL}/resume.pdf`}>Resume</a>
           </li>
         </ul>
       </nav>
