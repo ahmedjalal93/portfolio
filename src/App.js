@@ -12,9 +12,9 @@ function App() {
         <Nav/>
         <Info />
         <Switch>
-          <Route path= '/' component= {About}/> 
-          <Route path= '/contact' component= {Contact}/> 
-          <Route path= '/portfolio' component= {Portfolio}/>
+          <Route path= '/portfolio/' component= {About}/> 
+          <Route path= '/portfolio/contact' component= {Contact}/> 
+          <Route path= '/portfolio/portfolio' component= {Portfolio}/>
         </Switch>
       </div>
     </Router>

@@ -12,7 +12,7 @@ function Nav() {
         <a href="#">&#9776;</a>
         <ul>
           <li>
-            <a href="/">About</a>
+            <a href="/portfolio/">About</a>
           </li>
           <li>
             <a href="portfolio">Portfolio</a>
