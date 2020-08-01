@@ -12,13 +12,13 @@ function Nav() {
         <a href="#">&#9776;</a>
         <ul>
           <li>
-            <a href="/portfolio/">About</a>
+            <Link to="/">About</Link>
           </li>
           <li>
-            <a href="portfolio">Portfolio</a>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <a href="contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
             <a href={`${process.env.PUBLIC_URL}/resume.pdf`}>Resume</a>
